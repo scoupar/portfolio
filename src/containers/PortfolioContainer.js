@@ -12,8 +12,9 @@ const PortfolioContainer = () => {
     return(
         <>
         <header>
-            <Logo/>
+            <div className ="navbar">
             <NavBar/>
+            </div>
         </header>
 
         <main>

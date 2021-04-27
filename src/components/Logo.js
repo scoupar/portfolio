@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <div id = "logo">
         <a href = "./">
-            <img className = "logo" src ={logo} alt ="logo"/>
+            <img className = "logo" src ={logo} alt ="logo" height = "100px"/>
         </a>
         </div>
     )

@@ -8,3 +8,27 @@ body{
 }
 
 
+.navbar-container{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button{
+  margin-left:10em;
+
+}
+
+.navbar-button > .item{
+  color:white;
+  text-decoration: none;
+}
+
+.navbar-button > .item:hover{
+  color:#ffbd59;
+
+}
+
+
+
+
+
