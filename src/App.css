@@ -1,10 +1,8 @@
-.App {
-  text-align: center;
 
-}
 
 body{
   background-color:#385b7b;
+  font-family: 'Lexend', sans-serif;
 }
 
 
@@ -26,6 +24,48 @@ body{
 .navbar-button > .item:hover{
   color:#ffbd59;
 
+}
+
+
+.name{
+  position: relative;
+  left:5%;
+  bottom: 45vh;
+  font-size: 75px;
+  color:whitesmoke;
+  letter-spacing: 10px;
+}
+
+
+
+.job-title{
+  position: relative;
+  left:20%;
+  bottom:50vh;
+  font-size: 30px;
+  color:whitesmoke;
+  letter-spacing: 20px;
+}
+
+.landing-text > .headshot{
+  clip-path: circle(50% at 50% 50%);
+  position: relative;
+  top:10vh;
+  left: 70%;
+
+}
+
+.button{
+  position:relative;
+  left:40%;
+  bottom:40vh;
+  background-color: #ffbd59;
+  border:none;
+  color:whitesmoke;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
 }
 
 
