@@ -26,6 +26,7 @@ const About = () => {
         <DevIcon icon ="mongodb" height = {50} fill="whitesmoke"/>
         <DevIcon icon ="git" height = {50} fill="whitesmoke"/>
         <DevIcon icon ="github_badge" height = {50} fill="whitesmoke"/>
+        <DevIcon icon ="intellij" height = {50} fill="whitesmoke"/>
         </div>
         
 
