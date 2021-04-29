@@ -12,7 +12,9 @@ body{
 .navbar-container{
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  top:0;
+  
   
 }
 
@@ -99,6 +101,7 @@ body{
   letter-spacing: 2px;
   padding-left:20px;
   padding-right:20px;
+  margin-bottom:30%;
 }
 
 .button2{
@@ -111,5 +114,22 @@ body{
   
 }
 
+/* projects section */
+
+
+
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-card{
+  background-color: #6f9dc7;
+  border:solid #ffbd59 2px;
+  text-align: center;
+  padding:5px;
+  color:whitesmoke;
+}
 
 
