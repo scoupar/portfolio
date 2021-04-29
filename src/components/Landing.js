@@ -1,6 +1,7 @@
 import React from 'react';
 import headshot from "../static/images/scott.jpeg";
 import Typical from 'react-typical';
+import {NavHashLink} from 'react-router-hash-link';
 
 const Landing = () => {
     return (
@@ -18,7 +19,12 @@ const Landing = () => {
         loop = {1}
         wrapper = 'h2'
         />
-        <button className = "button">hi!</button>
+        <NavHashLink smooth to = "/#about"
+                scroll ={(el) => el.scrollIntoView({behavior: 'smooth', block: 'center'})}
+                className = "button"
+                activeClassName = "activeRoute">
+                Hello!
+                </NavHashLink>
         </div>
         
         
