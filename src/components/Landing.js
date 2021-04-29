@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from "../static/images/scott.jpeg";
+import Typical from 'react-typical';
 
 const Landing = () => {
     return (
@@ -7,8 +8,16 @@ const Landing = () => {
         
         <div className = "landing-text">
         <img className = "headshot"src = {headshot} alt = "headshot" height = "400px"/>
-        <h1 className = "name">S _ C O U P A R</h1>
-        <h2 className ="job-title">software developer</h2>
+        <Typical className ="name"
+        steps ={['S _ C O U P A R']}
+        loop ={1}
+        wrapper = "h1"
+        />
+        <Typical className = "job-title"
+        steps = {['restaurant manager', 10, 'musician', 10, 'software developer']}
+        loop = {1}
+        wrapper = 'h2'
+        />
         <button className = "button">hi!</button>
         </div>
         
