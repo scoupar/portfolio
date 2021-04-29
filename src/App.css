@@ -3,22 +3,28 @@
 body{
   background-color:#385b7b;
   font-family: 'Lexend', sans-serif;
+  
+  
 }
 
+/* navbar */
 
 .navbar-container{
   display: flex;
   align-items: center;
+  
 }
 
 .navbar-button{
   margin-left:10em;
+  
 
 }
 
 .navbar-button > .item{
   color:white;
   text-decoration: none;
+  position: sticky;
 }
 
 .navbar-button > .item:hover{
@@ -26,6 +32,7 @@ body{
 
 }
 
+/* landing page */
 
 .name{
   position: relative;
@@ -65,9 +72,29 @@ body{
   font-size: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: center;
   
 }
 
+.button:hover{
+  background-color: #6f9dc7;
+  
+}
+
+/* about */
+
+.about-title{
+  color:white;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 45px;
+}
+
+.about-body{
+  color:white;
+  text-align: center;
+  letter-spacing: 2px;
+}
 
 
 
