@@ -88,14 +88,27 @@ body{
   text-align: center;
   letter-spacing: 20px;
   font-size: 45px;
+  margin-top:10vmax;
+  
 }
 
 .about-body{
   color:white;
   text-align: center;
   letter-spacing: 2px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
+.button2{
+  background-color: #ffbd59;
+  border:none;
+  color:whitesmoke;
+  margin-top:5%;
+  margin-bottom:5%;
+  font-size: 25px;
+  
+}
 
 
 

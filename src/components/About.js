@@ -4,9 +4,14 @@ const About = () => {
     return (
         <>
         
-        <h1 className = "about-title">Hello,</h1>
         
-        <p className = "about-body">I'm Scott and I am a full-stack software developer based in Glasgow, Scotland.</p>
+        <h1 className = "about-title">Hello,</h1>
+        <div className = "about-body">
+        <p>I'm Scott Coupar - a full-stack developer based in Glasgow, Scotland. Having recently graduated from an intensive Professional Software Development course at CodeClan, I'm looking for opportunites to develop both software and myself.</p>
+        <br></br>
+        <p>I have experience with Java, JavaScript and Python and I'm comfortable working on both front and back end applications. You can see some of my work in the projects section below.</p>
+        <button className = "button2">Projects</button>
+        </div>
         </>
     )
 }
