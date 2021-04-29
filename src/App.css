@@ -120,6 +120,7 @@ body{
 .devicon-container{
   display: flex;
   justify-content: space-evenly;
+  margin-top:10%;
 }
 
 /* projects section */
