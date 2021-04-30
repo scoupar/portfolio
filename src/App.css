@@ -130,7 +130,8 @@ body{
 .projects-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-card{
@@ -141,6 +142,7 @@ body{
   text-align: center;
   padding:5px;
   color:whitesmoke;
+  margin:20px;
 }
 
 .project-image{
@@ -152,6 +154,18 @@ body{
   display: flex;
   justify-content: space-evenly;
   margin:15px;
+}
+
+.demo-button{
+  background-color:#385b7b;
+  color:whitesmoke;
+  font-family: 'Lexend', sans-serif;
+  text-decoration: none;
+  margin:5px;
+}
+
+.demo-button:hover{
+  color: #ffbd59;
 }
 
 /* contact section */
