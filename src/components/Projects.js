@@ -29,7 +29,7 @@ const Projects = () => {
                 <DevIcon className = "project-devicon" icon ="mongodb" height = {40} fill="whitesmoke"/>
                 </div>
                 <ModalVideo channel ="youtube" autoplay isOpen={isOpenSpace} videoId="tW9jmAHcNuE" onClose={() => setIsOpenSpace(false)}   />
-                <a className = "demo-button" onClick ={() => setIsOpenSpace(true)}>View Demo</a>
+                <button className = "demo-button" onClick ={() => setIsOpenSpace(true)}>View Demo</button>
                 <a className = "demo-button" href= "https://github.com/scoupar/SpaceAppProject" target ="_blank">View Code</a>
             </div>
             <div className = "project-card">
@@ -43,7 +43,7 @@ const Projects = () => {
                 <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
                 </div>
                 <ModalVideo channel ="youtube" autoplay isOpen={isOpenCC} videoId="3CIGxUUhcpw" onClose={() => setIsOpenCC(false)} />
-                <a className = "demo-button" onClick ={() => setIsOpenCC(true)}>View Demo</a>
+                <button className = "demo-button" onClick ={() => setIsOpenCC(true)}>View Demo</button>
                 <a className = "demo-button" href= "https://github.com/scoupar/Java_News_App_Frontend" target ="_blank">View Code</a>
             </div>
             <div className = "project-card">
@@ -57,7 +57,7 @@ const Projects = () => {
                 <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
                 </div>
                 <ModalVideo channel ="youtube" autoplay isOpen={isOpenCC} videoId="3CIGxUUhcpw" onClose={() => setIsOpenCC(false)} />
-                <a className = "demo-button" onClick ={() => setIsOpenCC(true)}>View Demo</a>
+                <button className = "demo-button" onClick ={() => setIsOpenCC(true)}>View Demo</button>
                 <a className = "demo-button" href= "https://github.com/scoupar/Stock_Manager_Project" target ="_blank">View Code</a>
             </div>
         </div>
