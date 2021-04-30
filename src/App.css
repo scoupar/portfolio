@@ -134,11 +134,24 @@ body{
 }
 
 .project-card{
+  display: flex;
+  flex-direction: column;
   background-color: #6f9dc7;
   border:solid #ffbd59 2px;
   text-align: center;
   padding:5px;
   color:whitesmoke;
+}
+
+.project-image{
+  margin:10px;
+  border-radius: 10px;
+}
+
+.project-devicon-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin:15px;
 }
 
 /* contact section */
@@ -159,6 +172,8 @@ body{
   text-align:center;
   letter-spacing: 2px;
 }
+
+
 
 
 
