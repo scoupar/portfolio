@@ -141,7 +141,7 @@ body{
   grid-template-areas: 
   "t t t t"
   "p p m m"
-  "f f . .";
+  ". . f f";
   background-color: #6f9dc7;
   /* border:solid #ffbd59 2px; */
   text-align: center;

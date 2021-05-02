@@ -20,30 +20,7 @@ const Projects = () => {
         <section id ="projects">
         <h1 className="title">Projects</h1>
         <div className = "projects-container">
-            <div className = "project-card">
-                <div className = "project-title">
-                <h1>Hello Space! - an educational app</h1>
-                </div>
-                <div className ="project-image">
-                <ReactPlayer url="https://youtu.be/tW9jmAHcNuE" controls />
-                </div>
-                <div className = "project-text">
-                <p>Built using React for the front end and an Express server to perform CRUD operations on a MongoDb database. The app also fetches data from multiple web API's (NASA and SpaceDevs) and displays selected data to the user.</p>
-                <p>Libraries such as HighCharts, Leaflet and Canvas are used to display information and create an interactive learning environment for the user.</p>
-                <span><p>Built with <a href="https://github.com/thestylishcoder" target ="blank" className = "team-link">Anna Cunningham</a> and <a href ="https://github.com/reneengraham" target ="blank" className = "team-link">Renee Graham</a></p></span>
-                <p></p>
-                <a className = "demo-button" href= "https://github.com/scoupar/SpaceAppProject" target ="_blank">View Code</a>
-                </div>
-                <div className = "project-devicon-container">
-                <DevIcon className = "project-devicon" icon ="javascript" height = {40} fill="whitesmoke"/>
-                <DevIcon className = "project-devicon" icon ="html5" height = {40} fill="whitesmoke"/>
-                <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
-                <DevIcon className = "project-devicon" icon ="mongodb" height = {40} fill="whitesmoke"/>
-                </div>
-
-            
-            </div>
-            <div className = "project-card">
+        <div className = "project-card">
                 <div className = "project-title">
                 <h1>CC News - a full-stack news app</h1>
                 </div>
@@ -68,13 +45,40 @@ const Projects = () => {
             </div>
             <div className = "project-card">
                 <div className = "project-title">
+                <h1>Hello Space! - an educational app</h1>
+                </div>
+                <div className ="project-image">
+                <ReactPlayer url="https://youtu.be/tW9jmAHcNuE" controls />
+                </div>
+                <div className = "project-text">
+                <p>Built using React for the front end and an Express server to perform CRUD operations on a MongoDb database. The app also fetches data from multiple web API's (NASA and SpaceDevs) and displays selected data to the user.</p>
+                <p>Libraries such as HighCharts, Leaflet and Canvas are used to display information and create an interactive learning environment for the user.</p>
+                <span><p>Built with <a href="https://github.com/thestylishcoder" target ="blank" className = "team-link">Anna Cunningham</a> and <a href ="https://github.com/reneengraham" target ="blank" className = "team-link">Renee Graham</a></p></span>
+                <p></p>
+                <a className = "demo-button" href= "https://github.com/scoupar/SpaceAppProject" target ="_blank">View Code</a>
+                </div>
+                <div className = "project-devicon-container">
+                <DevIcon className = "project-devicon" icon ="javascript" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="html5" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="mongodb" height = {40} fill="whitesmoke"/>
+                </div>
+
+            
+            </div>
+
+            <div className = "project-card">
+                <div className = "project-title">
                 <h1>Stock Manager - a full-stack stock management app</h1>
                 </div>
                 <div className = "project-image">
                 <ReactPlayer url ="https://youtu.be/z43hjhUEKd0" controls/>
                 </div>
                 <div className = "project-text">
-                    <p>fgfd afdsf dfsd</p>
+                    <p>This is a stock management app designed to be used in a restaurant, however it would also be suitable for use in any situation with suppliers and products. </p>
+                    <p>The app is built with the flask python framework and is connected to a PostgreSQL database. Full CRUD operations are available to the user to manage both products and suppliers.</p>
+                    <p>Users are alerted to out of stock items immediately on the home page as well as stock level alerters on the main product list.</p>
+                    <p>This was a solo project undertaken after learning python for 4 weeks.</p>
                 <a className = "demo-button" href= "https://github.com/scoupar/Stock_Manager_Project" target ="_blank">View Code</a>
                 </div>
                 <div className = "project-devicon-container">
