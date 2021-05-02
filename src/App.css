@@ -109,12 +109,20 @@ body{
 
 .button2{
   background-color: #ffbd59;
+  font-family: 'Lexend', sans-serif;
   border:none;
   color:whitesmoke;
-  margin-top:5%;
+  margin-top:10%;
   margin-bottom:5%;
-  font-size: 25px;
-  
+  font-size: 20px;
+  padding:5px;
+  padding-left:10px;
+  padding-right:10px;
+  text-decoration: none; 
+}
+
+.button2:hover{
+  background-color: #6f9dc7;
 }
 
 .devicon-container{
@@ -147,18 +155,21 @@ body{
   text-align: center;
   padding:5px;
   color:whitesmoke;
-  margin:20px;
+  margin:5px;
 }
 
 .project-title{
   grid-area:t;
+  margin:20px;
 }
 .project-image{
   grid-area:p;
   
 }
 .project-text{
-  grid-area:m
+  grid-area:m;
+  padding:10px;
+  margin:10px;
 }
 
 
@@ -174,11 +185,10 @@ body{
   color:whitesmoke;
   font-family: 'Lexend', sans-serif;
   text-decoration: none;
-  margin:10px;
   border:none;
   padding:5px;
-  
 }
+
 
 .demo-button:hover{
   color: #ffbd59;

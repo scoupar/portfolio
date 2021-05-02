@@ -30,7 +30,7 @@ const Projects = () => {
                 <div className = "project-text">
                     <p>Created with a react front-end which is connected to a spring boot Java back-end. The app features a reader-focused front section where news articles can be viewed and filtered by category and journalist. A keyword search function is also used to filter articles by their headline. </p>
                     <p>The site also features an admin section which allows the user to add, edit and delete the articles and journalist information that is displayed in the front end.</p>
-                    <p>Additional features include a fully working weather widget and 'breaking news' section that pulls real news stories from the News API and updates on a regular basis. </p>
+                    <p>Additional features include a fully working weather widget and 'breaking news' section that pulls real news stories from the News API which updates on a regular basis. </p>
                     <span><p>Built with <a href="https://github.com/tinahouston" target ="blank" className = "team-link">Tina Houston</a>, <a href ="https://github.com/mz-biddy01" target ="blank" className = "team-link">Helen Aguda</a> and <a href ="https://github.com/gregor69" target ="blank" className = "team-link">Gregor Simpson</a></p></span>
                     <a className = "demo-button" href= "https://github.com/scoupar/Java_News_App_Frontend" target ="_blank">View Code</a>
                 </div>
@@ -40,12 +40,17 @@ const Projects = () => {
                 <DevIcon className = "project-devicon" icon ="javascript" height = {40} fill="whitesmoke"/>
                 <DevIcon className = "project-devicon" icon ="html5" height = {40} fill="whitesmoke"/>
                 <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="npm" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="visualstudio" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="intellij" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="git" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="github_badge" height = {40} fill="whitesmoke"/>
                 </div>
 
             </div>
             <div className = "project-card">
                 <div className = "project-title">
-                <h1>Hello Space! - an educational app</h1>
+                <h1>Hello Space! - a full-stack interactive education app</h1>
                 </div>
                 <div className ="project-image">
                 <ReactPlayer url="https://youtu.be/tW9jmAHcNuE" controls />
@@ -53,6 +58,7 @@ const Projects = () => {
                 <div className = "project-text">
                 <p>Built using React for the front end and an Express server to perform CRUD operations on a MongoDb database. The app also fetches data from multiple web API's (NASA and SpaceDevs) and displays selected data to the user.</p>
                 <p>Libraries such as HighCharts, Leaflet and Canvas are used to display information and create an interactive learning environment for the user.</p>
+                <p>Notable features include a quiz, information on upcoming launches into space and an interactive section that allows the user to move around space.</p>
                 <span><p>Built with <a href="https://github.com/thestylishcoder" target ="blank" className = "team-link">Anna Cunningham</a> and <a href ="https://github.com/reneengraham" target ="blank" className = "team-link">Renee Graham</a></p></span>
                 <p></p>
                 <a className = "demo-button" href= "https://github.com/scoupar/SpaceAppProject" target ="_blank">View Code</a>
@@ -62,6 +68,10 @@ const Projects = () => {
                 <DevIcon className = "project-devicon" icon ="html5" height = {40} fill="whitesmoke"/>
                 <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
                 <DevIcon className = "project-devicon" icon ="mongodb" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="npm" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="visualstudio" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="git" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="github_badge" height = {40} fill="whitesmoke"/>
                 </div>
 
             
@@ -86,6 +96,10 @@ const Projects = () => {
                 <DevIcon className = "project-devicon" icon ="postgresql" height = {40} fill="whitesmoke"/>
                 <DevIcon className = "project-devicon" icon ="html5" height = {40} fill="whitesmoke"/>
                 <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="npm" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="visualstudio" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="git" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="github_badge" height = {40} fill="whitesmoke"/>
                 </div>
 
             </div>
