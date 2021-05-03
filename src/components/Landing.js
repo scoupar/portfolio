@@ -14,6 +14,7 @@ const Landing = () => {
         loop ={1}
         wrapper = "h1"
         />
+        <br></br>
         <Typical className = "job-title"
         steps = {['restaurant manager', 10, 'musician', 10, 'software developer']}
         loop = {1}
