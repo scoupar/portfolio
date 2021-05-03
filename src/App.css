@@ -209,6 +209,11 @@ body{
   border:none;
   padding:5px;
   margin-left:10px;
+  
+}
+
+.hidden-button:hover{
+  color:#ffbd59;
 }
 
 .team-link{
@@ -218,6 +223,10 @@ body{
 
 .team-link:hover{
   color:#ffbd59;
+}
+
+.hidden-image{
+  margin-bottom:10px;
 }
 
 
@@ -264,7 +273,14 @@ body{
     justify-content: center;
   
   }
+
   .project-image{
+    display: none;
+  }
+}
+
+@media (min-width: 1200px){
+  .hidden-image{
     display: none;
   }
 }
@@ -273,8 +289,9 @@ body{
   .hidden-button{
     display: none;
   }
-}
 
+  
+}
 
 
 

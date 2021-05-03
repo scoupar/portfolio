@@ -5,7 +5,9 @@ import ccnews from '../static/images/CCNews.png';
 import hellospace from '../static/images/Hello Space.png';
 import stockmanager from '../static/images/stockmanager.png';
 import ReactPlayer from 'react-player';
-
+import stockmanagerbanner from '../static/images/stockmanagerbanner.png';
+import hellospacebanner from '../static/images/Hellospacebanner.png';
+import ccnewsbanner from '../static/images/ccnewsbanner.png'
 
 const Projects = () => {
 
@@ -23,6 +25,9 @@ const Projects = () => {
         <div className = "project-card">
                 <div className = "project-title">
                 <h1>CC News - a full-stack news app</h1>
+                <img src = {ccnewsbanner} alt = "cc-news-image" className = "hidden-image" width = "300"/>
+                <br></br>
+                <a className = "hidden-button" href ="https://youtu.be/3CIGxUUhcpw" target = "blank">View Demo on YouTube</a>
                 </div>
                 <div className = "project-image">
                 <ReactPlayer className = "video" url="https://youtu.be/3CIGxUUhcpw" controls/>
@@ -33,7 +38,7 @@ const Projects = () => {
                     <p>Additional features include a fully working weather widget and 'breaking news' section that pulls real news stories from the News API which updates on a regular basis. </p>
                     <span><p>Built with <a href="https://github.com/tinahouston" target ="blank" className = "team-link">Tina Houston</a>, <a href ="https://github.com/mz-biddy01" target ="blank" className = "team-link">Helen Aguda</a> and <a href ="https://github.com/gregor69" target ="blank" className = "team-link">Gregor Simpson</a></p></span>
                     <a className = "demo-button" href= "https://github.com/scoupar/Java_News_App_Frontend" target ="_blank">View Code</a>
-                    <a className = "hidden-button" href ="https://youtu.be/3CIGxUUhcpw" target = "blank">View Demo on YouTube</a>
+            
                 </div>
                 
                 <div className = "project-devicon-container">
@@ -52,6 +57,9 @@ const Projects = () => {
             <div className = "project-card">
                 <div className = "project-title">
                 <h1>Hello Space! - a full-stack interactive education app</h1>
+                <img className = "hidden-image"src = {hellospacebanner} alt = "hello-space-banner" width = "300"/>
+                <br></br>
+                <a className = "hidden-button" href ="https://youtu.be/tW9jmAHcNuE" target = "blank">View Demo on YouTube</a>
                 </div>
                 <div className ="project-image">
                 <ReactPlayer className = "video" url="https://youtu.be/tW9jmAHcNuE" controls />
@@ -63,7 +71,7 @@ const Projects = () => {
                 <span><p>Built with <a href="https://github.com/thestylishcoder" target ="blank" className = "team-link">Anna Cunningham</a> and <a href ="https://github.com/reneengraham" target ="blank" className = "team-link">Renee Graham</a></p></span>
                 <p></p>
                 <a className = "demo-button" href= "https://github.com/scoupar/SpaceAppProject" target ="_blank">View Code</a>
-                <a className = "hidden-button" href ="https://youtu.be/tW9jmAHcNuE" target = "blank">View Demo on YouTube</a>
+                
                 </div>
                 <div className = "project-devicon-container">
                 <DevIcon className = "project-devicon" icon ="javascript" height = {40} fill="whitesmoke"/>
@@ -82,6 +90,9 @@ const Projects = () => {
             <div className = "project-card">
                 <div className = "project-title">
                 <h1>Stock Manager - a full-stack stock management app</h1>
+                <img className = "hidden-image"src = {stockmanagerbanner} alt = "image" width ="300"/>
+                <br></br>
+                <a className = "hidden-button" href ="https://www.youtube.com/watch?v=z43hjhUEKd0" target = "blank">View Demo on YouTube</a>
                 </div>
                 <div className = "project-image">
                 <ReactPlayer className = "video"url ="https://youtu.be/z43hjhUEKd0" controls/>
@@ -92,7 +103,7 @@ const Projects = () => {
                     <p>Users are alerted to out of stock items immediately on the home page as well as stock level alerters on the main product list.</p>
                     <p>This was a solo project undertaken after learning python for 4 weeks.</p>
                 <a className = "demo-button" href= "https://github.com/scoupar/Stock_Manager_Project" target ="blank">View Code</a>
-                <a className = "hidden-button" href ="https://www.youtube.com/watch?v=z43hjhUEKd0" target = "blank">View Demo on YouTube</a>
+                
                 </div>
                 <div className = "project-devicon-container">
                 <DevIcon className = "project-devicon" icon ="python" height = {40} fill="whitesmoke"/>
