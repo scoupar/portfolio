@@ -25,7 +25,7 @@ const Projects = () => {
                 <h1>CC News - a full-stack news app</h1>
                 </div>
                 <div className = "project-image">
-                <ReactPlayer url="https://youtu.be/3CIGxUUhcpw" controls/>
+                <ReactPlayer className = "video" url="https://youtu.be/3CIGxUUhcpw" controls/>
                 </div>
                 <div className = "project-text">
                     <p>Created with a react front-end which is connected to a spring boot Java back-end. The app features a reader-focused front section where news articles can be viewed and filtered by category and journalist. A keyword search function is also used to filter articles by their headline. </p>
@@ -33,6 +33,7 @@ const Projects = () => {
                     <p>Additional features include a fully working weather widget and 'breaking news' section that pulls real news stories from the News API which updates on a regular basis. </p>
                     <span><p>Built with <a href="https://github.com/tinahouston" target ="blank" className = "team-link">Tina Houston</a>, <a href ="https://github.com/mz-biddy01" target ="blank" className = "team-link">Helen Aguda</a> and <a href ="https://github.com/gregor69" target ="blank" className = "team-link">Gregor Simpson</a></p></span>
                     <a className = "demo-button" href= "https://github.com/scoupar/Java_News_App_Frontend" target ="_blank">View Code</a>
+                    <a className = "hidden-button" href ="https://youtu.be/3CIGxUUhcpw" target = "blank">View Demo on YouTube</a>
                 </div>
                 
                 <div className = "project-devicon-container">
@@ -53,7 +54,7 @@ const Projects = () => {
                 <h1>Hello Space! - a full-stack interactive education app</h1>
                 </div>
                 <div className ="project-image">
-                <ReactPlayer url="https://youtu.be/tW9jmAHcNuE" controls />
+                <ReactPlayer className = "video" url="https://youtu.be/tW9jmAHcNuE" controls />
                 </div>
                 <div className = "project-text">
                 <p>Built using React for the front end and an Express server to perform CRUD operations on a MongoDb database. The app also fetches data from multiple web API's (NASA and SpaceDevs) and displays selected data to the user.</p>
@@ -62,6 +63,7 @@ const Projects = () => {
                 <span><p>Built with <a href="https://github.com/thestylishcoder" target ="blank" className = "team-link">Anna Cunningham</a> and <a href ="https://github.com/reneengraham" target ="blank" className = "team-link">Renee Graham</a></p></span>
                 <p></p>
                 <a className = "demo-button" href= "https://github.com/scoupar/SpaceAppProject" target ="_blank">View Code</a>
+                <a className = "hidden-button" href ="https://youtu.be/tW9jmAHcNuE" target = "blank">View Demo on YouTube</a>
                 </div>
                 <div className = "project-devicon-container">
                 <DevIcon className = "project-devicon" icon ="javascript" height = {40} fill="whitesmoke"/>
@@ -82,14 +84,15 @@ const Projects = () => {
                 <h1>Stock Manager - a full-stack stock management app</h1>
                 </div>
                 <div className = "project-image">
-                <ReactPlayer url ="https://youtu.be/z43hjhUEKd0" controls/>
+                <ReactPlayer className = "video"url ="https://youtu.be/z43hjhUEKd0" controls/>
                 </div>
                 <div className = "project-text">
                     <p>This is a stock management app designed to be used in a restaurant, however it would also be suitable for use in any situation with suppliers and products. </p>
                     <p>The app is built with the flask python framework and is connected to a PostgreSQL database. Full CRUD operations are available to the user to manage both products and suppliers.</p>
                     <p>Users are alerted to out of stock items immediately on the home page as well as stock level alerters on the main product list.</p>
                     <p>This was a solo project undertaken after learning python for 4 weeks.</p>
-                <a className = "demo-button" href= "https://github.com/scoupar/Stock_Manager_Project" target ="_blank">View Code</a>
+                <a className = "demo-button" href= "https://github.com/scoupar/Stock_Manager_Project" target ="blank">View Code</a>
+                <a className = "hidden-button" href ="https://www.youtube.com/watch?v=z43hjhUEKd0" target = "blank">View Demo on YouTube</a>
                 </div>
                 <div className = "project-devicon-container">
                 <DevIcon className = "project-devicon" icon ="python" height = {40} fill="whitesmoke"/>

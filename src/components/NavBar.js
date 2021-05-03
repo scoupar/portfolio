@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className = "navbar-container">
         <div id = "logo">
         <a href = "./">
-            <img className = "logo" src ={logo} alt ="logo" height = "100px"/>
+            <img className = "logo" src ={logo} alt ="logo" height = "75px"/>
         </a>
         </div>
             <div className = "navbar-button">
