@@ -249,6 +249,8 @@ body{
   letter-spacing: 2px;
 }
 
+/* mobile view media queries */
+
 @media(max-width: 1250px){
   .headshot{
     visibility: hidden;
@@ -258,6 +260,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
   }
 
   .button{
