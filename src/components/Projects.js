@@ -27,7 +27,7 @@ const Projects = () => {
         <div className = "projects-container">
         <div className = "project-card">
                 <div className = "project-title">
-                <h1>VASA  - a mobile friendly band website</h1>
+                <h1>VASA  - a mobile-friendly band website</h1>
                 <img className = "hidden-image"src = {vasabanner} alt = "vasa-banner" width = "300"/>
                 <br></br>
                 </div>
@@ -36,7 +36,8 @@ const Projects = () => {
                 </div>
                 <div className = "project-text">
                 <p>Mobile-first linktree-style website for Glasgow instrumental band VASA to display all social media / web links in one view.</p>
-                <p>Created using React and deployed with Firebase</p>
+                <p>The main purpose of this project was to practice mobile-first design and create a responsive webpage for all devices.</p>
+                <p>Created using React, HTML5 and CSS3 and deployed with Firebase</p>
                 <p></p>
                 <a className = "demo-button" href= "https://wearevasa.com" target ="_blank">View Site</a>
                 <a className = "demo-button" href= "https://github.com/scoupar/vasa-mobile-site" target ="_blank">View Code</a>
