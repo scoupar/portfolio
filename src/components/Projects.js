@@ -8,6 +8,9 @@ import ReactPlayer from 'react-player';
 import stockmanagerbanner from '../static/images/stockmanagerbanner.png';
 import hellospacebanner from '../static/images/Hellospacebanner.png';
 import ccnewsbanner from '../static/images/ccnewsbanner.png'
+import vasa from '../static/images/V A S A.png';
+import vasalarge from '../static/images/Vasa-Large.png';
+import vasabanner from '../static/images/vasa-banner.png';
 
 const Projects = () => {
 
@@ -22,6 +25,35 @@ const Projects = () => {
         <section id ="projects">
         <h1 className="title">Projects</h1>
         <div className = "projects-container">
+        <div className = "project-card">
+                <div className = "project-title">
+                <h1>VASA  - a mobile friendly band website</h1>
+                <img className = "hidden-image"src = {vasabanner} alt = "vasa-banner" width = "300"/>
+                <br></br>
+                </div>
+                <div className ="project-image">
+                <img src = {vasalarge} alt= 'vasa picture' height ="350"/>
+                </div>
+                <div className = "project-text">
+                <p>Mobile-first linktree-style website for Glasgow instrumental band VASA to display all social media / web links in one view.</p>
+                <p>Created using React and deployed with Firebase</p>
+                <p></p>
+                <a className = "demo-button" href= "https://wearevasa.com" target ="_blank">View Site</a>
+                <a className = "demo-button" href= "https://github.com/scoupar/vasa-mobile-site" target ="_blank">View Code</a>
+                
+                </div>
+                <div className = "project-devicon-container">
+                <DevIcon className = "project-devicon" icon ="javascript" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="html5" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="css3" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="npm" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="visualstudio" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="git" height = {40} fill="whitesmoke"/>
+                <DevIcon className = "project-devicon" icon ="github_badge" height = {40} fill="whitesmoke"/>
+                </div>
+
+            
+            </div>
         <div className = "project-card">
                 <div className = "project-title">
                 <h1>CC News - a full-stack news app</h1>
