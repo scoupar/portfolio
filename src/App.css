@@ -22,6 +22,7 @@ body {
 .navbar-button > .item {
   color: white;
   text-decoration: none;
+  transition: all 0.5s ease;
   /* position: sticky; */
 }
 
