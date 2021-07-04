@@ -1,6 +1,7 @@
 body {
   background-color: #385b7b;
   font-family: "Lexend", sans-serif;
+  overflow-x: hidden;
 }
 
 /* navbar */
