@@ -1,11 +1,11 @@
 body {
-  background-color: #1b1b1b;
+  background-color: #1f1f1f;
   font-family: sans-serif;
   overflow-x: hidden;
 }
 
 span {
-  color: #da35c1;
+  color: #14a098;
 }
 
 /* navbar */
@@ -16,7 +16,7 @@ span {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: #1b1b1b;
+  background-color: #0f292f;
   width: 100%;
 }
 
@@ -46,7 +46,7 @@ span {
   left: 10vh;
   bottom: 45vh;
   font-size: 4vw;
-  color: whitesmoke;
+  color: #cccccc;
   letter-spacing: 10px;
 }
 
@@ -55,7 +55,7 @@ span {
   left: 10vh;
   bottom: 50vh;
   font-size: 2vw;
-  color: whitesmoke;
+  color: #cccccc;
   letter-spacing: 20px;
 }
 
@@ -72,7 +72,7 @@ span {
   position: relative;
   left: 40%;
   bottom: 40vh;
-  background-color: #e9a7de;
+  background-color: #14a098;
   border: none;
   color: black;
   font-size: 30px;
@@ -87,7 +87,7 @@ span {
 }
 
 .button:hover {
-  background-color: whitesmoke;
+  background-color: #cccccc;
 }
 
 /* about-section */
@@ -307,4 +307,11 @@ span {
 
 h1 {
   color: white;
+}
+
+.line {
+  background: #cccccc;
+  height: 0.2rem;
+  margin: 2rem 0rem;
+  width: 50%;
 }
