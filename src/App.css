@@ -172,17 +172,19 @@ span {
   grid-area: m;
   padding: 10px;
   margin: 10px;
+  color: white;
+  text-align: center;
 }
 
 .project-devicon-container {
   grid-area: f;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 10px;
 }
 
 .demo-button {
-  background-color: #385b7b;
+  background-color: #0f292f;
   color: whitesmoke;
   font-family: "Lexend", sans-serif;
   text-decoration: none;
