@@ -5,7 +5,7 @@ body {
 }
 
 span {
-  color: #66fcf1;
+  color: #da35c1;
 }
 
 /* navbar */
@@ -65,14 +65,14 @@ span {
   position: relative;
   top: 10vh;
   left: 70%;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.966);
 }
 
 .button {
   position: relative;
   left: 40%;
   bottom: 40vh;
-  background-color: #66fcf1;
+  background-color: #e9a7de;
   border: none;
   color: black;
   font-size: 30px;
@@ -299,4 +299,12 @@ span {
   margin-bottom: 1vh;
   border: 1px solid white;
   align-items: center;
+}
+
+.banner:hover {
+  border: 1px solid #66fcf1;
+}
+
+h1 {
+  color: white;
 }
