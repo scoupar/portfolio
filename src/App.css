@@ -179,7 +179,7 @@ span {
 .project-devicon-container {
   grid-area: f;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 10px;
 }
 
