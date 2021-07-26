@@ -146,34 +146,34 @@ const Projects = () => {
                 'breaking news' section that pulls real news stories from the
                 News API which updates on a regular basis.{" "}
               </p>
-              <span>
-                <p>
-                  Built with{" "}
-                  <a
-                    href="https://github.com/tinahouston"
-                    target="blank"
-                    className="team-link"
-                  >
-                    Tina Houston
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://github.com/mz-biddy01"
-                    target="blank"
-                    className="team-link"
-                  >
-                    Helen Aguda
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    href="https://github.com/gregor69"
-                    target="blank"
-                    className="team-link"
-                  >
-                    Gregor Simpson
-                  </a>
-                </p>
-              </span>
+
+              <p>
+                Built with{" "}
+                <a
+                  href="https://github.com/tinahouston"
+                  target="blank"
+                  className="team-link"
+                >
+                  Tina Houston
+                </a>
+                ,{" "}
+                <a
+                  href="https://github.com/mz-biddy01"
+                  target="blank"
+                  className="team-link"
+                >
+                  Helen Aguda
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://github.com/gregor69"
+                  target="blank"
+                  className="team-link"
+                >
+                  Gregor Simpson
+                </a>
+              </p>
+
               <br></br>
               <a
                 className="demo-button"
@@ -283,26 +283,26 @@ const Projects = () => {
                 launches into space and an interactive section that allows the
                 user to move around space.
               </p>
-              <span>
-                <p>
-                  Built with{" "}
-                  <a
-                    href="https://github.com/thestylishcoder"
-                    target="blank"
-                    className="team-link"
-                  >
-                    Anna Cunningham
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    href="https://github.com/reneengraham"
-                    target="blank"
-                    className="team-link"
-                  >
-                    Renee Graham
-                  </a>
-                </p>
-              </span>
+
+              <p>
+                Built with{" "}
+                <a
+                  href="https://github.com/thestylishcoder"
+                  target="blank"
+                  className="team-link"
+                >
+                  Anna Cunningham
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://github.com/reneengraham"
+                  target="blank"
+                  className="team-link"
+                >
+                  Renee Graham
+                </a>
+              </p>
+
               <p></p>
               <br></br>
               <a
@@ -409,7 +409,7 @@ const Projects = () => {
                 This was a solo project undertaken after learning python for 4
                 weeks.
               </p>
-              <br></br>.
+              <br></br>
               <a
                 className="demo-button"
                 href="https://github.com/scoupar/Stock_Manager_Project"
