@@ -20,7 +20,7 @@ const PortfolioContainer = () => {
 
       <main>
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Landing />
             <About />
             <ProjectsList />

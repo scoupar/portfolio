@@ -1,14 +1,19 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 const Toggle = ({ children, img }) => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div>
-      <img src={img} className="banner" onClick={() => setToggle(!toggle)} />
+    <motion.div
+      className="list-container"
+      layout
+      onClick={() => setToggle(!toggle)}
+    >
+      <img layout src={img} className="banner" />
       {toggle ? children : ""}
       <div className="line"></div>
-    </div>
+    </motion.div>
   );
 };
 
