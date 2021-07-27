@@ -24,7 +24,7 @@ const PortfolioContainer = () => {
             <Landing />
             <About />
             <ProjectsList />
-            <Projects />
+            {/* <Projects /> */}
             <Contact />
           </Route>
         </Switch>

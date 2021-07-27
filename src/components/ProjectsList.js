@@ -42,50 +42,6 @@ const ProjectsList = () => {
               View Code
             </a>
           </div>
-          {/* <div className="project-devicon-container">
-            <DevIcon
-              className="project-devicon"
-              icon="javascript"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="html5"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="css3"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="npm"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="visualstudio"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="git"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="github_badge"
-              height={40}
-              fill="whitesmoke"
-            />
-          </div> */}
         </Toggle>
         <Toggle img={ccnewsbanner}>
           <div className="project-text">
@@ -150,67 +106,9 @@ const ProjectsList = () => {
               View Demo on YouTube
             </a>
           </div>
-          {/* <div className="project-devicon-container">
-            <DevIcon
-              className="project-devicon"
-              icon="java"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="javascript"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="html5"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="css3"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="npm"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="visualstudio"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="intellij"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="git"
-              height={40}
-              fill="whitesmoke"
-            />
-            <DevIcon
-              className="project-devicon"
-              icon="github_badge"
-              height={40}
-              fill="whitesmoke"
-            />
-          </div> */}
         </Toggle>
       </AnimateSharedLayout>
-
-      <img className="banner" src={hellospacebanner} alt="hello space banner" />
-      <div className="project-info">
+      <Toggle img={hellospacebanner}>
         <div className="project-text">
           <p>
             Built using React for the front end and an Express server to perform
@@ -265,64 +163,8 @@ const ProjectsList = () => {
             View Demo on YouTube
           </a>
         </div>
-        <div className="project-devicon-container">
-          <DevIcon
-            className="project-devicon"
-            icon="javascript"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="html5"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="css3"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="mongodb"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="npm"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="visualstudio"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="git"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="github_badge"
-            height={40}
-            fill="whitesmoke"
-          />
-        </div>
-      </div>
-      <div className="line"></div>
-      <img
-        className="banner"
-        src={stockmanagerbanner}
-        alt="stock manager banner"
-      />
-      <div className="project-info">
+      </Toggle>
+      <Toggle img={stockmanagerbanner}>
         <div className="project-text">
           <p>
             This is a stock management app designed to be used in a restaurant,
@@ -351,65 +193,14 @@ const ProjectsList = () => {
             View Code
           </a>
           <a
-            className="hidden-button"
+            className="demo-button"
             href="https://www.youtube.com/watch?v=z43hjhUEKd0"
             target="blank"
           >
             View Demo on YouTube
           </a>
         </div>
-        <div className="project-devicon-container">
-          <DevIcon
-            className="project-devicon"
-            icon="python"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="postgresql"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="html5"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="css3"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="npm"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="visualstudio"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="git"
-            height={40}
-            fill="whitesmoke"
-          />
-          <DevIcon
-            className="project-devicon"
-            icon="github_badge"
-            height={40}
-            fill="whitesmoke"
-          />
-        </div>
-      </div>
-      <div className="line"></div>
+      </Toggle>
     </div>
   );
 };

@@ -294,13 +294,13 @@ span {
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .banner {
-  width: 95%;
+  width: 90%;
   margin-bottom: 1vh;
   border: 1px solid white;
-  align-items: center;
 }
 
 .banner:hover {
