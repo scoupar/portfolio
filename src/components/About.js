@@ -10,6 +10,7 @@ const About = () => {
         <h1 className="title">
           <span>Hello,</span>
         </h1>
+        <h2 className="sub-title">I'm Scott Coupar,</h2>
         <div className="about-body">
           <p>
             I'm <span>Scott Coupar</span> - a full-stack developer based in
