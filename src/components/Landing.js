@@ -5,7 +5,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 const Landing = () => {
   return (
-    <>
+    <section>
       <div className="landing-text">
         <img
           className="headshot"
@@ -44,7 +44,7 @@ const Landing = () => {
           Hi!
         </NavHashLink>
       </div>
-    </>
+    </section>
   );
 };
 

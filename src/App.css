@@ -298,9 +298,10 @@ span {
 }
 
 .banner {
-  width: 90%;
+  width: 40%;
   margin-bottom: 1vh;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .banner:hover {
@@ -317,3 +318,14 @@ h1 {
   margin: 2rem 0rem;
   width: 50%;
 }
+
+/* main {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+} */

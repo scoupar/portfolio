@@ -34,7 +34,7 @@ const About = () => {
           <br></br>
           <NavHashLink
             smooth
-            to="/#projects"
+            to="/#projectslist"
             scroll={(el) =>
               el.scrollIntoView({ behavior: "smooth", block: "start" })
             }

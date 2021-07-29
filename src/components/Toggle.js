@@ -10,7 +10,7 @@ const Toggle = ({ children, img }) => {
       layout
       onClick={() => setToggle(!toggle)}
     >
-      <img layout src={img} className="banner" />
+      <img src={img} className="banner" />
       {toggle ? children : ""}
       <div className="line"></div>
     </motion.div>
